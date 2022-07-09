@@ -6,7 +6,7 @@ class RandomNumberGenerator extends Component {
 
   onGenerator = () => {
     const random = Math.ceil(Math.random() * 10)
-    this.setState(prevState => ({count: prevState.count + random}))
+    this.setState({count:random})
   }
 
   render() {
