@@ -1,0 +1,45 @@
+.app-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.mini-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  box-shadow: #eaebed;
+}
+.heading {
+  color: #0b69ff;
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: 700;
+}
+.description {
+  color: black;
+  text-align: center;
+  font-family: 'Roboto';
+  font-size: 25px;
+}
+.generatorButton {
+  color: #ffffff;
+  border-radius: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  border: none;
+  background-color: #0b69ff;
+}
+
+.count {
+  color: #0b69ff;
+  font-size: 40px;
+  font-weight: bold;
+}
